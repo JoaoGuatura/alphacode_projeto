@@ -2,10 +2,10 @@
 ------------------------------
 Aplicativo para cadastrar contatos
 ------------------------------
-Tecnologias utilizadas: HTML, CSS, Javascript, PHP, MySQL.
-PHP em versão 7.3.0
-MySQL em versão 5.5.62
-Não foi utilizado SCSS e nem Twig.
+Tecnologias utilizadas: HTML, CSS, Javascript, PHP, MySQL.<br>
+PHP em versão 7.3.0<br>
+MySQL em versão 5.5.62<br>
+Não foi utilizado SCSS e nem Twig.<br>
 Uma função que não consegui fazer funcionar, foi a de colocar corretamente os dados de `Notificação de email`, `Receber SMS` e `Número de celular possui Whatsapp` no banco de dados, pois eles ficam sempre como "Sim" independente da  caixa de opção marcada, ou seja mesmo que nenhuma caixa seja marcada, no banco de dados ele sempre fica aparecendo como se ela tivesse sido selecionada.
 
 Todos os arquivos estão na raiz da pasta ao invés de pastas organizadas, pois foi a maneira que encontrei para fazer com que o XAMPP fizesse a conexão do sistema com o banco de dados usando MySQL.

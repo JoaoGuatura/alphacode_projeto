@@ -1,0 +1,224 @@
+#contactsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#contactsTable th,
+#contactsTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#contactsTable th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #068ed0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0568b4;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: #068ed0;
+    padding: 20px;
+  }
+
+  main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #068ed0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto; 
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+    min-height: 100vh;
+}
+  
+
+  .txt_cadastro{
+    color: white;
+    font-size: 38px;
+  }
+
+  .formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+}
+
+.placeholder {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.placeholder.nome { grid-column: 1; }
+.placeholder.email { grid-column: 1; }
+.placeholder.telefone { grid-column: 1; }
+.placeholder.data { grid-column: 2; }
+.placeholder.profissao { grid-column: 2; }
+.placeholder.celular { grid-column: 2; }
+
+.checkbox-container {
+    grid-column: span 2; 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%; 
+}
+
+
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button.edit {
+    background-color: white;
+    color: white;
+}
+
+button.delete {
+    background-color: white;
+    color: white;
+}
+
+button.edit:hover {
+    background-color: #0568b4;}
+
+button.delete:hover {
+    background-color: #0568b4;
+}
+
+button.save {
+    background-color: #008CBA;
+    color: white;
+}
+
+button.save:hover {
+    background-color: #007bb5; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"] {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    padding: 8px;
+    font-size: 16px;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+
+input:focus {
+    border-bottom: 2px solid #007BFF; 
+    background-color: #f0f8ff; 
+}
+
+
+.placeholder {
+    margin-bottom: 16px; 
+}
+
+
+.placeholder label {
+    display: block;
+    margin-bottom: 4px; 
+    font-size: 14px;
+    color: #333;
+}

@@ -11,7 +11,7 @@ Todos os arquivos estão na raiz da pasta ao invés de pastas organizadas, pois 
 ### PASTA arquivosDeConfig
 ------------------------------
 Decidi inserir esta pasta com algumas das configurações utilizadas para fazer o sistema funcionar, não sei se era necessário, mas caso ajude a executar o sistema os arquivos já estão aí.
-
+------------------------------
 
 ### PASSO A PASSO DE COMO EU FIZ PARA EXECUTAR O APLICATIVO
 

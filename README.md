@@ -5,12 +5,13 @@ Aplicativo para cadastrar contatos
 Tecnologias utilizadas: HTML, CSS, Javascript, PHP, MySQL.
 PHP em versão 7.3.0
 MySQL em versão 5.5.62
+Não foi utilizado SCSS e nem Twig.
 
 Todos os arquivos estão na raiz da pasta ao invés de pastas organizadas, pois foi a maneira que encontrei para fazer com que o XAMPP fizesse a conexão do sistema com o banco de dados usando MySQL.
 
 ### PASTA arquivosDeConfig
 ------------------------------
-Decidi inserir esta pasta com algumas das configurações utilizadas para fazer o sistema funcionar, não sei se era necessário, mas caso ajude a executar o sistema os arquivos já estão aí.
+Decidi inserir esta pasta com algumas das configurações utilizadas para fazer o sistema funcionar, não sei se era necessário, mas caso ajude a executar o sistema os arquivos já estão aí. Acredito que por causa dessa pasta, está aparecendo no repositório que utilizei SCSS e Twig, porém não usei.
 ------------------------------
 
 ### PASSO A PASSO DE COMO EU FIZ PARA EXECUTAR O APLICATIVO
